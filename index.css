@@ -1,0 +1,84 @@
+.container {
+    background-color: #1B244A;
+    max-width: 80%;
+    height: 500px; /* height of the container */
+    width: 550px; /* width of the container */
+    margin: 20px auto 30px auto; /* Center the container */
+    border: 1px solid black; /* border */
+    border-radius: 3%;
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width and height */
+    text-align: center; /* Center text in the container */
+}
+
+pre {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Change this to your desired font */
+    font-size: 35px; /* Example font size */
+    margin: 0; /* Remove default margin */
+}
+
+.boxes {
+    display: flex;
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 40px; /* Add space between the boxes */
+    margin-top: 20px; /* Add space between the heading and the boxes */
+   
+}
+@font-face {
+    font-family: CursedFont;
+    src: url(CursedFont.ttf);
+}
+
+.box {
+    padding: 20px;
+    height: 150px;
+    background-color: rgb(0, 0, 0); /* Box background color */
+    border: 1px solid black; /* Box border */
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-align: center; /* Center text inside boxes */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    flex: 1; /* Make the boxes take up equal space */
+    max-width: 150px; /* to decrease the width*/
+    color:#F94F6D; 
+    font-size: 100px;
+    font-family: CursedFont;
+}
+
+#increment1-btn, #increment2-btn,#increment3-btn {
+    background:#1B244A;
+    color: rgb(162, 187, 218);
+    margin: 5px;
+    font-family: CursedFont;
+    border: 1px solid rgb(162, 187, 218); /* border */
+    position: relative;
+    left: 40px; /* Moves button to the left */
+    
+}
+
+#increment4-btn, #increment5-btn,#increment6-btn {
+    background:#1B244A;
+    color: rgb(162, 187, 218);
+    margin: 5px;
+    font-family: CursedFont;
+    border: 1px solid rgb(162, 187, 218); /* border */
+    position: relative;
+    left: 95px; /* Moves button to the left */ 
+}
+
+#reset-btn1,#reset-btn2 {
+    background:#1B244A;
+    color: rgb(162, 187, 218);
+    margin: 5px;
+    font-family: CursedFont;
+    border: 1px solid rgb(162, 187, 218); /* border */
+    position: relative;
+    left: -150px; /* Moves button to the left */ 
+    bottom: -100px;
+
+
+}
+
+
+
